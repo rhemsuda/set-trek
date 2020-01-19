@@ -6,7 +6,7 @@ Starship game built with custom DirectX11 3D graphics engine. This was a school 
 2. Click on main.exe
 
 ### Controls
-Click - Move
+Left Click - Move
 
 E - Warp to planet
 
