@@ -1,0 +1,13 @@
+1. Ensure the Visual Studios Compiler PATH is up to date in your environment variables
+ ex.
+ - C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+ - C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\
+
+2. Open the command line to the project and type the following command to initialize the visual studios compiler variables.
+ - vcvarsall
+
+3. Run the 'build' command to build the project
+ - currently there may be a linker warning on first compilation, IGNORE THIS and COMPILE AGAIN it doesnt do anything.
+ - it is most likely due to one of the includes for the DirectXTK library.
+
+4. Run the program by executing main.exe either from command line or windows explorer.
